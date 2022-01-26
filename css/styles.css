@@ -73,7 +73,7 @@ h3{
     font-size:1.2rem;
 }
 #testimonials{
-    padding:7% 15%;
+    padding:7% 10%;
     text-align: center;
     background-color: #ff4c68;
     color: #fff;    
@@ -82,4 +82,19 @@ h3{
 .testimonial-img{
     width: 10%;
     border-radius: 100%;
+    margin: 20px; 
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    height:500px;
+    text-align: center;
 }
