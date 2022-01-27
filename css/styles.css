@@ -26,7 +26,7 @@ h3{
     margin: 5% 3% 5% 0% ;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 10% 15%;
 }
 
 .navbar {
@@ -48,6 +48,8 @@ h3{
 }
 .title-img{
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 .nav-item {
@@ -68,9 +70,11 @@ h3{
 }
 #features {
     text-align: center;
-    padding: 80px 40px;
+    padding: 7% 15%;
     color: #8f8f8f;
     font-size:1.2rem;
+    background-color: #ffffff;
+    position: relative;
 }
 #testimonials{
     padding:7% 10%;
@@ -97,4 +101,44 @@ h3{
 .carousel-item{
     height:500px;
     text-align: center;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1332px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform:rotate(0);
+    }
+    
+}
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: center;
+    
+
+}
+.cta-h3{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 50px 15% 10px;
+}
+.cta-button{
+        margin: 5% 3% 2% 0% ;
+}
+
+#footer{
+    background-color: #fff;
 }
