@@ -141,4 +141,9 @@ h3{
 
 #footer{
     background-color: #fff;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
 }
